@@ -34,7 +34,7 @@ class PolylineController {
     try {
       final geoJsonString = jsonEncode(geoJson);
       final bytes = utf8.encode(geoJsonString);
-      final fileName = 'polyline.geojson';
+      final fileName = 'polyline';
 
       // Use FileSaver to save the file
       await FileSaver.instance.saveFile(
