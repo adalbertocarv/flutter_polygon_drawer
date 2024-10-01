@@ -35,6 +35,7 @@ dependencies:
   latlong2: ^0.9.1
   flutter_map_cancellable_tile_provider: ^2.0.0
   dart_shp: ^1.1.1
+  file_saver: ^0.2.14
 
 
 
